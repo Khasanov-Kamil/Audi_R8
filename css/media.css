@@ -98,6 +98,9 @@
   .main__row{
     flex-direction: row;
   }
+  .main__img{
+    min-height: 100%
+  }
   .main__item{
     flex: 0 0 50%
   }
