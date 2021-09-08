@@ -1,0 +1,298 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1.2;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.header{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/bg/car_header.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+.header__title{
+  color: white;
+  font-weight: 500;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.header__subtitle{
+  margin-top: 15px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.container{
+  padding: 15px;
+  width: 100%;
+  height: 100%;  
+}
+.header__container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  text-align: right;
+}
+.header__body{
+  margin-left: 37px
+}
+
+
+/* ==================== */
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  color: white;
+  width: 100%;
+  background-color: #101010
+}
+.about__body{
+  display: flex;
+  flex-direction: column;
+}
+.about__info{
+  border-left: 9px solid #C24444;
+  padding-left: 20px
+}
+.title{
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.aside{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Roboto", 'Times New Roman', Times, serif
+}
+.about__section{
+  margin-top: 60px
+}
+.about__icon img,.aside__icon img{
+  width: 60px;
+}
+.about__item,.aside__item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px
+}
+.about__row{
+  padding-left: 29px
+}
+.about__icon,.aside__icon{
+  margin-bottom: 7px;
+  font-size: 52px;
+  color: #C24444;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.about__subtitle{
+  margin-bottom: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+} 
+
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main__row{
+  display: flex;
+  flex-direction: column;
+}
+.main__img{
+  width: 100%;
+  min-height: 400px
+}
+.item__two{
+  display: flex;
+  flex-direction: column;
+}
+.main__container{
+  display: flex;
+  flex-direction: column;
+}
+.main__img_two,.main__img_three,.main__block,.main__block_two{
+  color: white;
+  padding: 8px;
+  background-color: #101010;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__block_two{
+  background-color: #C24444;
+}
+.link {
+  color: #C24444;
+  cursor: pointer;
+  text-decoration-line: underline
+}
+
+
+
+.aside_d{
+  color: white;
+  width: 100%;
+  background-image: url(../img/bg/car4.png);
+  background-position: 70% center;
+  background-size: cover;
+  background-repeat: no-repeat 
+}
+.aside__container{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 10
+}
+.aside__text_bg{
+  position: absolute;
+  top: 0;
+  color: white ;
+  left: 0;
+  opacity: 0.1;
+  font-size: 80px;
+  font-weight: 900;
+  padding: 17px;
+  z-index: -1
+}
+.aside__body{
+  display: flex;
+  flex-direction: column;
+}
+.aside__section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+}
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  color: white;
+  width: 100%;
+  background-color: #101010
+}
+.info__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__item{
+  width: 100%;
+  position: relative;
+  margin-bottom: 75px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.info__item:last-child{
+  margin: 0;
+}
+.info__title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 17px
+}
+.info__text_bg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 45px;
+  font-weight: 500;
+  opacity: 0.1;
+  transform: translate(-50%,-50%)
+}
+
+
+.section{
+  color: white;
+  background-image: linear-gradient(to top, #00000073, #00000073), url(../img/bg/car5.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+.section__container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  text-align: right;
+}
+.section__info{
+  margin: 80px 0 80px 37px
+}
+
+
+
+.footer{
+  color: white;
+  background-image:linear-gradient(to top, #00000073, #00000073), url(../img/bg/car6.jpeg);
+  background-position: 30% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__title{
+  margin-bottom: 19px
+}
+.footer__text{
+  margin-bottom: 12px;
+}
+.footer__section_two{
+  text-align: right;
+  margin-top: 35px
+}
