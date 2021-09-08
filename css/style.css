@@ -97,11 +97,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .title{
   margin-bottom: 10px;
-  font-size: 35px;
+  font-size: 34px;
   font-family: Georgia, 'Times New Roman', Times, serif
 }
 .aside{
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Roboto", 'Times New Roman', Times, serif
 }
@@ -109,7 +109,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   margin-top: 60px
 }
 .about__icon img,.aside__icon img{
-  width: 60px;
+  width: 53px;
 }
 .about__item,.aside__item{
   display: flex;
