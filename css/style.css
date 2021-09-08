@@ -261,7 +261,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .section{
   color: white;
-  background-image: linear-gradient(to top, #00000073, #00000073), url(../img/bg/car5.jpeg);
+  background-image: url(../img/bg/5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat
@@ -280,7 +280,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .footer{
   color: white;
-  background-image:linear-gradient(to top, #00000073, #00000073), url(../img/bg/car6.jpeg);
+  background-image: url(../img/bg/6.jpg);
   background-position: 30% center;
   background-size: cover;
   background-repeat: no-repeat;
