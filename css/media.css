@@ -10,7 +10,7 @@
   }
   .header__body {
     margin-left: 50px;
-    margin-bottom: 50px
+    margin-bottom: 70px
   }
   .header__title{
     font-size: 85px;
@@ -84,14 +84,49 @@
     flex: 0 0 50%;
     margin: 0;
   }
+
 }
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
+  .header__body{
+    width: 50%;
+  }
+  .container{
+    width: 900px
+  }
+  .main__row{
+    flex-direction: row;
+  }
+  .main__item{
+    flex: 0 0 50%
+  }
+  .title{
+    font-size: 37px;
+  }
+  .aside{
+    font-size: 18px;
+  }
+  .header__title{
+    font-size: 90px;
+  }
   
 }
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
-  
+  .container{
+    width: 1100px;
+  }
+  .title{
+    font-size: 40px;
+  }
+  .aside{
+    font-size: 23px;
+  }
+}
+@media (min-width: 1350px) {
+  .container{
+    width: 1280px;
+  }
 }
